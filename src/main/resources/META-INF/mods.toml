@@ -1,0 +1,11 @@
+modLoader="javafml"
+loaderVersion="[39,)"
+license="LGPL-3.0-or-later"
+
+[[mods]]
+modId="globaldatapacks"
+version="${file.jarVersion}"
+displayName="Global Datapacks"
+description='''
+Allows loading datapacks from a global directory.
+'''
