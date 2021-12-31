@@ -50,7 +50,7 @@ public class DirectoryRepositorySource implements RepositorySource {
                  *  - pack origin
                  */
 
-                final Pack pack = Pack.create(packName, true, () -> packRes, fac, Pack.Position.TOP, PackSource.WORLD);
+                final Pack pack = Pack.create(packName, true, () -> packRes, fac, Pack.Position.TOP, PackSource.DEFAULT);
                 reg.accept(pack);
             }
         }
